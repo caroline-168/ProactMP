@@ -1,0 +1,10 @@
+
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  registry:
+    address: zookeeper://101.35.228.84:2181
+  protocol:
+    port: 20882
+    name: dubbo
+    payload: 104857600
