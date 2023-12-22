@@ -18,23 +18,23 @@ export PATH=$JAVA_HOME/bin:$PATH:%ZOOKEEPER_HOME/bin
 ```
 
 3. Start ZooKeeper:
-
+```
     sh zkServer.sh start
 
     sh zkServer.sh status // to check the status
-
+```
 (/bin)
-
+```
     ./zkServer.sh start
 
     ./zkServer.sh status
-
+```
 
 4. Project configuration:
 
 **dubbo-consumer**
 
-``
+```
 dubbo:
 
   application:
@@ -58,11 +58,11 @@ dubbo:
 server:
 
   port: 2395
-''
+```
 
 **dubbo-provider**
 
-``
+```
 dubbo:
 
   application:
@@ -82,7 +82,7 @@ dubbo:
     payload: 104857600
 
     prefer-serialization: hession2
-''
+```
 
 
 5. Start the project:
