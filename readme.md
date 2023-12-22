@@ -19,7 +19,6 @@ export PATH=$JAVA_HOME/bin:$PATH:%ZOOKEEPER_HOME/bin
 
 3. Start ZooKeeper:
 
-
     sh zkServer.sh start
 
     sh zkServer.sh status // to check the status
@@ -54,7 +53,7 @@ dubbo:
 
   registry:
 
-    address: zookeeper://xxxxx:2181    # change xxxx to your ip
+    address: zookeeper://xxxxx:2181    # change xxxxx to your ip
 
 server:
 
@@ -72,7 +71,7 @@ dubbo:
 
   registry:
 
-    address: zookeeper://xxxxx:2181    # change xxxx to your ip
+    address: zookeeper://xxxxx:2181    # change xxxxx to your ip
 
   protocol:
 
