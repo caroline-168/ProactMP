@@ -9,13 +9,13 @@ https://archive.apache.org/dist/zookeeper/
 
 
 2. Configure environment variables:
-
+```
 export JAVA_HOME=/usr/bin/java
 
 export ZOOKEEPER_HOME=/www/wwwroot/apache-zookeeper-3.5.7-bin // zk
 
 export PATH=$JAVA_HOME/bin:$PATH:%ZOOKEEPER_HOME/bin
-
+```
 
 3. Start ZooKeeper:
 
