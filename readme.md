@@ -1,8 +1,6 @@
-/**
+# ProactMP
  * @description: A proactive multipath transport protocol for low-latency datacenters
  * @Author: ProactMP (USTC)
- */
-
 
 # To build the module:
 1. Download and install ZooKeeper:
